@@ -143,3 +143,4 @@ class Author(models.Model):
         String for representing the Model object.
         """
         return '{0}, {1}'.format(self.last_name,self.first_name)
+
